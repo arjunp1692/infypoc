@@ -1,0 +1,6 @@
+---
+description: SentinelFlow security and command limits
+alwaysApply: true
+---
+
+Follow rules/security.md and rules/permissions.md. Do not log alert descriptions, indicators, or API keys. Do not commit secrets. Do not send alert payloads to a public model. Do not force-push or rewrite git history.

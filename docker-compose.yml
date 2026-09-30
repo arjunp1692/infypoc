@@ -1,0 +1,23 @@
+services:
+  sentinelflow:
+    image: sentinelflow:0.1.0
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SENTINELFLOW_AI_API_KEY: ""
+    volumes:
+      - sentinelflow-data:/app/data
+
+  postgres:
+    image: postgres:16
+    profiles: ["postgres"]
+    environment:
+      POSTGRES_DB: sentinelflow
+      POSTGRES_USER: sentinelflow
+      POSTGRES_PASSWORD: local-only
+    ports:
+      - "5432:5432"
+
+volumes:
+  sentinelflow-data:
