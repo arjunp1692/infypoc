@@ -1,0 +1,8 @@
+Command: powershell -File scripts/verify.ps1
+When: 2026-09-29T21:14:27+05:30
+Result: verify passed
+
+build: package succeeded
+test: 21 run, 0 failures, 0 errors, including SuppressionPolicyTest and SuppressionApiIntegrationTest
+lint: 0 Checkstyle violations
+secret-scan: clean

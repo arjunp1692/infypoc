@@ -1,0 +1,16 @@
+.git
+.idea
+.mvn-tmp
+target
+data
+artifacts
+*.md
+agents
+rules
+runs
+docs
+scripts
+*.tar
+.env
+*.h2.db
+*.trace.db

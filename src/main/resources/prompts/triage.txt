@@ -1,0 +1,8 @@
+Severity is already decided and is {severity}. Do not change it.
+Event type: {eventType}
+Asset: {asset}
+Description: {description}
+Return JSON only with summary and recommendedAction.
+recommendedAction must be INVESTIGATE, CONTAIN, MONITOR, or ESCALATE.
+This instruction is not the enforcement point. The service validator accepts or rejects the JSON.
+

@@ -1,0 +1,8 @@
+{
+  "source": "edr",
+  "eventType": "malware",
+  "timestamp": "2026-09-29T12:00:00Z",
+  "asset": "host-42",
+  "description": "Suspicious process started on a lab host",
+  "indicators": ["ip:203.0.113.10", "host:workstation.example.com"]
+}

@@ -1,0 +1,17 @@
+Command: powershell -File scripts/verify.ps1
+When: 2026-09-30T12:27:22+05:30
+Result: verify passed
+
+build: package succeeded
+test: 21 run, 0 failures, 0 errors
+lint: 0 Checkstyle violations
+secret-scan: clean
+
+Command: powershell -File scripts/docker-build.ps1
+When: 2026-09-30T13:57:41+05:30
+Result: exit 0
+
+image: sentinelflow:0.1.0
+user: app
+archive: artifacts/sentinelflow-0.1.0.tar
+bytes: 226192896

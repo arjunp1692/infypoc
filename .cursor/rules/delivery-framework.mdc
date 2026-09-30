@@ -1,0 +1,6 @@
+---
+description: SentinelFlow delivery loop and curated context
+alwaysApply: true
+---
+
+Read AGENTS.md and docs/ before changing product behavior. Do not edit src/ for a story until runs/<id>/plan.md exists and runs/<id>/checkpoint-approved.md contains Status: APPROVED. Change only files named in that plan. Severity comes from SeverityRules. NarrativeValidator rejects model output that fails the schema or disagrees with that severity. scripts/verify.ps1 is the definition of done.

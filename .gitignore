@@ -1,0 +1,9 @@
+target/
+data/
+.idea/
+*.iml
+.env
+*.h2.db
+*.trace.db
+.mvn-tmp/
+artifacts/
